@@ -119,4 +119,5 @@ conf = document.querySelector("#confirm_button")
 conf.addEventListener("click",()=>{
     document.querySelector(".login_confirm").classList.remove("active")
     document.querySelector("#popups").style.display = "none"
+    document.querySelector(".profile-icon").querySelector("img").src="logo.png"
 })
